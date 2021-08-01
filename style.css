@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@200&display=swap');
+body{
+    
+    /* background: url("https://wallpapercave.com/wp/wp6794618.jpg"); */
+    background-image: linear-gradient(to right top, #043f21, #005225, #006526, #007924, #008d1f, #119a23, #1fa627, #2ab32b, #3abc3c, #48c44c, #55cd5b, #61d669);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.user-list{
+    padding-top: 50px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:5px;
+}
+@media (min-width: 400px){
+.user-container{
+    
+    margin: 10px; 
+    box-shadow: 1px 1px 3px black; 
+    transition: 0.2s;
+}
+}
+.header{
+    font-family: 'Tourney', cursive;
+    text-align:center;
+    font-size: 40px;
+}
+.tag{
+    padding-bottom: 20px;
+    font-family: 'Tourney', cursive;
+    text-align:center;
+    font-weight: 500;
+    font-size: 40px;
+}
+ .content{
+     text-align: left; 
+    padding: 5%;
+} 
+
+.content1{
+    display: flex;
+    gap: 10px;
+}
+
+.card1{
+    padding: 4%;
+}
+.text1{
+    font-size: 20px;
+    text-align: left;
+}
+.time{
+    font-size: 20px;
+    color: rgb(10, 2, 2);
+}
+
+.image{
+    height: 100px;
+    width: 100px;
+    transition: 0.2s;
+}
+.image:hover{
+    transform: scale(1.5);
+}
+.user-container:hover {
+    transform: scale(1.1);
+}
+.image1{
+    height: 400px;
+    width: 400px;
+}
+
+.bar{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr  4fr 4fr 4fr;
+    gap:3px;
+}
+ 
+.refresh:hover{
+    background: linear-gradient(to right top, #d01031, #d60054, #d1007a, #be01a1, #9836c5, #9f3bc7, #a540c9, #ac45cb, #d93cad, #f2458e, #fc5c73, #fb775f);
+
+}
+@media  (max-width: 900px) {
+
+    .user-list 
+    {
+    grid-template-columns : repeat(2,1fr);
+     
+    }
+}
+@media  (max-width: 600px) {
+
+    .user-list 
+    {
+    grid-template-columns : 1fr;
+     
+    }
+}
+@media  (max-width: 900px) {
+
+    .bar 
+    {
+    grid-template-columns : repeat(2,4fr);
+     
+    }
+}
+@media  (max-width: 600px) {
+
+    .bar 
+    {
+    grid-template-columns : 4fr;
+     
+    }
+}
+@media  (max-width: 600px){
+    .content1{
+        grid-template-columns : 4fr;
+    }
+    }
+
+
+
+
+
+
+    
