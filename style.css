@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Tourney:wght@200&display=swap');
 body{
     
-    /* background: url("https://wallpapercave.com/wp/wp6794618.jpg"); */
-    background-image: linear-gradient(to right top, #043f21, #005225, #006526, #007924, #008d1f, #119a23, #1fa627, #2ab32b, #3abc3c, #48c44c, #55cd5b, #61d669);
+    
+    background-image: linear-gradient(to right top, #043f21, #00554c, #00698a, #0077cb, #0077f3, #9c61e2, #dc42bd, #ff248a, #ff4d44, #ff8f00, #bfc700, #07f21b);
     display: grid;
     place-items: center;
     height: 100vh;
