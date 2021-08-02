@@ -38,7 +38,10 @@ body{
      text-align: left; 
     padding: 5%;
 } 
-
+.card{
+    box-shadow: 1px 1px 3px black;
+    padding: 5%; 
+}
 .content1{
     display: flex;
     gap: 10px;
